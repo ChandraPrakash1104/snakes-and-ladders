@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="main.css" />
+		<title>snakes-and-ladders</title>
+	</head>
+	<body>
+		<main>
+			<div class="board">
+				<img src="./assets/board.svg" alt="" />
+				<div class="board__boxes"></div>
+				<div class="board__player-0"></div>
+				<div class="board__player-1"></div>
+			</div>
+			<section class="other">
+				<section class="player player--0 player--active">
+					<h2 class="name" id="name--0">Player 1</h2>
+					<p class="score" id="score--0">0</p>
+				</section>
+				<img src="assets/dice-blank.jpg" alt="Playing dice" class="dice" />
+				<button class="btn btn--roll">roll</button>
+				<section class="player player--1">
+					<h2 class="name" id="name--1">Player 2</h2>
+					<p class="score" id="score--1">0</p>
+				</section>
+			</section>
+		</main>
+		<script src="app.js"></script>
+	</body>
+</html>
